@@ -1,0 +1,105 @@
+languageCode = "es-mx"
+baseurl = "https://unsueno.com"
+title = "Un sueño | Costa"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Un sueño"
+	description = "Cabañas del Pacífico"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Un sueño"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Servicios"
+			portfolio = "Conócenos"
+      location  = "Mapa"
+			contact   = "Contacto"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Un sueño"
+		subtitle   = "Costas del Pacífico"
+		buttonText = "Conoce más"
+
+
+	# About section
+	[params.about]
+		headline    = "Tu cabaña ideal"
+		description = "Tenemos las mejores cabañas de Oaxaca"
+		#buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "A tu servicio"
+
+    [[params.services.list]]
+        icon = "fa-shower"
+        title = "Baño privado"
+        description = "Baño privado por cabaña"
+
+    [[params.services.list]]
+			icon = "fa-bed"
+			title = "Cama matrimonial"
+			description = "1 o 2 camas matrimonial(es) por cabaña"
+
+		[[params.services.list]]
+      icon = "fa-wifi"
+      title = "WiFi"
+      description = "Acceso a internet a través de señal inalámbrica"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	#[params.aside]
+		#headline = "Get the Creative Theme for Hugo"
+
+		#[params.aside.button]
+			#text = "Download now"
+			#link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Contáctanos"
+		description = "Queremos darte la mejor experiencia"
+		phone = "(52) 958 113 87 49"
+    phone_clean = "529581138749"
+		email = "julien.pardinilla@unsueno.com"
+    street = "Calle Principal, Lago Playa, Playa San Agustinillo, 70946, San Agustinillo, Oaxaca, México" 
+
+	# Google Maps section
+   [params.location]
+     latitude  = "15.6653748"
+     longitude = "-96.543088"
+     maps_api_key = "AIzaSyARMu6bLLVyhbPpiO2YSKL3OAhhx_QQ2uU"
